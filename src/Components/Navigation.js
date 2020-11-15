@@ -18,10 +18,26 @@ function Navigation() {
         leave: { opacity: 0, transform: 'translateX(-100%)' },
     })
 
+    let hamburger = <i class="fas fa-bars" onClick={() => setShowMenu(!showMenu)}></i>
+    let cross = <i class="fas fa-times" onClick={() => setShowMenu(!showMenu)}></i>
+
+    const hamburgerTransition = useTransition(showMenu, null, {
+        from: { position: 'absolute', opacity: 0, right: '20px', top: '10px' },
+        enter: { opacity: 1 },
+        leave: { opacity: 0 },
+    })
+
     return (
         <nav>
-            <span className="text-xl">    
-                <i class="fas fa-bars" onClick={() => setShowMenu(!showMenu)}></i>
+            <span className="text-xl">   
+                <div className="right-5 top-3">
+                {
+                    hamburgerTransition.map(({item, key, props }) => 
+                        item ? <animated.div style={props}>{cross}</animated.div>
+                        : <animated.div style={props}>{hamburger}</animated.div>
+                    )
+                }
+                </div> 
             </span>
 
             {
