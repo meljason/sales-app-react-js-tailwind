@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sales-app-react-js-tailwind/static/css/main.ba940c2a.chunk.css",
+    "main.js": "/sales-app-react-js-tailwind/static/js/main.023ba2f0.chunk.js",
+    "main.js.map": "/sales-app-react-js-tailwind/static/js/main.023ba2f0.chunk.js.map",
+    "runtime-main.js": "/sales-app-react-js-tailwind/static/js/runtime-main.1a722f99.js",
+    "runtime-main.js.map": "/sales-app-react-js-tailwind/static/js/runtime-main.1a722f99.js.map",
+    "static/js/2.87863824.chunk.js": "/sales-app-react-js-tailwind/static/js/2.87863824.chunk.js",
+    "static/js/2.87863824.chunk.js.map": "/sales-app-react-js-tailwind/static/js/2.87863824.chunk.js.map",
+    "static/js/3.aa9b6fb8.chunk.js": "/sales-app-react-js-tailwind/static/js/3.aa9b6fb8.chunk.js",
+    "static/js/3.aa9b6fb8.chunk.js.map": "/sales-app-react-js-tailwind/static/js/3.aa9b6fb8.chunk.js.map",
+    "index.html": "/sales-app-react-js-tailwind/index.html",
+    "static/css/main.ba940c2a.chunk.css.map": "/sales-app-react-js-tailwind/static/css/main.ba940c2a.chunk.css.map",
+    "static/js/2.87863824.chunk.js.LICENSE.txt": "/sales-app-react-js-tailwind/static/js/2.87863824.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a722f99.js",
+    "static/js/2.87863824.chunk.js",
+    "static/css/main.ba940c2a.chunk.css",
+    "static/js/main.023ba2f0.chunk.js"
+  ]
+}
